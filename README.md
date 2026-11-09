@@ -13,9 +13,6 @@ npm run build      # 类型检查 + 常规构建（产物在 dist/）
 npm run build:single  # 单文件构建（dist-single/index.html 可直接双击打开）
 ```
 
-交付时附带的 `天气应用Demo.html` 就是 `npm run build:single` 的产物：把 JS/CSS 全部内联进
-单个文件，双击即可在浏览器里运行（不需要装 Node，也不需要起服务）。
-
 ## 目录结构
 
 ```
